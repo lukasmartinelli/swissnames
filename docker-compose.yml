@@ -1,0 +1,16 @@
+postgres:
+  image: "mdillon/postgis:9.5"
+  ports:
+   - "5432:5432"
+  environment:
+    POSTGRES_DB: suisse
+    POSTGRES_USER: suisse
+    POSTGRES_PASSWORD: suisse
+import-swisstopo:
+  image: "swissnames/import-swisstopo"
+  links:
+   - postgres:postgres
+db-schema:
+  image: "swissnames/db-schema"
+  links:
+   - postgres:postgres
