@@ -1,0 +1,12 @@
+sudo: required
+language: bash
+services:
+  - docker
+before_install:
+  - make
+script:
+  - docker-compose up -d postgres
+  - sleep 10
+  - docker-compose run import-swisstopo
+  - docker-compose run db-schema
+  - docker-compose run export-geojson
