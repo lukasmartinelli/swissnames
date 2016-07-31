@@ -35,7 +35,8 @@ CREATE OR REPLACE VIEW horse_race_track AS (
     WHERE objektart='Pferderennbahnareal'
 );
 
-CREATE OR REPLACE VIEW climbing AS (
-    SELECT geom, name FROM swissnames3d_ply
-    WHERE objektart='Standplatzareal'
-);
+-- Unsure what a "Standplatz" is?
+--CREATE OR REPLACE VIEW climbing AS (
+--    SELECT geom, name FROM swissnames3d_ply
+--    WHERE objektart='Standplatzareal'
+--);
