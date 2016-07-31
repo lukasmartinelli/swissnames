@@ -1,4 +1,4 @@
-# Geographic Names of Switzerland [![BSD-3 and PDDL licensed](https://img.shields.io/badge/license-MIT/Free Geodata License swisstopo -blue.svg)](https://github.com/lukasmartinelli/swissnames#license)
+# Geographic Names of Switzerland [![BSD-3 and PDDL licensed](https://img.shields.io/badge/license-MIT/Free Geodata License swisstopo -blue.svg)](https://github.com/lukasmartinelli/swissnames#license) [![Build Status](https://travis-ci.org/lukasmartinelli/swissnames.svg?branch=master)](https://travis-ci.org/lukasmartinelli/swissnames)
 
 **swissnames** provides curated GeoJSON extracts from the [free swissNAMES3D data set from swisstopo](http://www.mont-terri.ch/internet/swisstopo/en/home/products/landscape/swissNAMES3D.html).
 This is either meant for direct map overlays in web map clients or for adding geographic names to your data set.
@@ -23,7 +23,7 @@ in a web mapping client (e.g. `http://swissnames.lukasmartinelli.ch/data/airport
 - [heliport.geojson](/data/heliport.geojson): Helicopter airport (Polygon)
 - [hill_chain.geojson](/data/hill_chain.geojson): Hill chains (Polygon)
 - [historic.geojson](/data/historic.geojson): Historic areas (Polygon)
-- [horse_race_track.geojson](/data/horse_race_track.geojson): Horse rase tracks (Polygon)
+- [horse_race_track.geojson](/data/horse_race_track.geojson): [Horse race tracks](https://en.wikipedia.org/wiki/Horse_racing) (Polygon)
 - [hospital.geojson](/data/hospital.geojson): Hospitals (Polygon)
 - [incineration.geojson](/data/incineration.geojson): Incineration (Polygon)
 - [lake.geojson](/data/lake.geojson): Lakes (Polygon)
