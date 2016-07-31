@@ -12,4 +12,5 @@ script:
   - sleep 10
   - docker-compose run import-swisstopo
   - docker-compose run db-schema
+  - rm -rf ./data
   - docker-compose run export-geojson
