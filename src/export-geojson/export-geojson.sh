@@ -71,6 +71,14 @@ function export_point_views() {
     export_geojson 'cave'
     export_geojson 'wayside_shrine'
     export_geojson 'well'
+    export_geojson 'main_peak'
+    export_geojson 'alpine_peak'
+    export_geojson 'peak'
+    export_geojson 'boulder'
+    export_geojson 'main_hill'
+    export_geojson 'hill'
+    export_geojson 'mountain_pass'
+    export_geojson 'road_pass'
 }
 
 export_polygon_views
