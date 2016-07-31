@@ -81,5 +81,5 @@ function export_point_views() {
     export_geojson 'road_pass'
 }
 
-export_polygon_views
 export_point_views
+export_polygon_views

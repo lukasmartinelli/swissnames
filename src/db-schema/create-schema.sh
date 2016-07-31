@@ -25,6 +25,7 @@ function main() {
     exec_psql_file "water.sql"
 
     exec_psql_file "single_object.sql"
+    exec_psql_file "named_point.sql"
 }
 
 main
