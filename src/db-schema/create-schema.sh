@@ -15,8 +15,14 @@ function exec_psql_file() {
 }
 
 function main() {
-    exec_psql_file "stadion.sql"
-    exec_psql_file "glacier.sql"
+    exec_psql_file "dam_structure.sql"
+    exec_psql_file "landuse.sql"
+    exec_psql_file "place.sql"
+    exec_psql_file "transport.sql"
+    exec_psql_file "landscape.sql"
+    exec_psql_file "leisure.sql"
+    exec_psql_file "terrain.sql"
+    exec_psql_file "water.sql"
 }
 
 main
