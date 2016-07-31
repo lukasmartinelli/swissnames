@@ -14,3 +14,9 @@ db-schema:
   image: "swissnames/db-schema"
   links:
    - postgres:postgres
+export-geojson:
+  image: "swissnames/export-geojson"
+  links:
+   - postgres:postgres
+  volumes:
+   - ./data:/output
