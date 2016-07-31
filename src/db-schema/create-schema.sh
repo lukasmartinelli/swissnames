@@ -23,6 +23,8 @@ function main() {
     exec_psql_file "leisure.sql"
     exec_psql_file "terrain.sql"
     exec_psql_file "water.sql"
+
+    exec_psql_file "single_object.sql"
 }
 
 main

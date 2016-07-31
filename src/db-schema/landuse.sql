@@ -33,7 +33,7 @@ CREATE OR REPLACE VIEW prison AS (
     WHERE objektart='Massnahmenvollzugsanstaltsareal'
 );
 
-CREATE OR REPLACE VIEW power_planet AS (
+CREATE OR REPLACE VIEW power_plant AS (
     SELECT geom, name FROM swissnames3d_ply
     WHERE objektart='Kraftwerkareal'
 );

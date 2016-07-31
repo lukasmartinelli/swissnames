@@ -46,7 +46,7 @@ function export_polygon_views() {
     export_geojson 'main_valley'
     export_geojson 'monastery'
     export_geojson 'mountain_massif'
-    export_geojson 'power_planet'
+    export_geojson 'power_plant'
     export_geojson 'prison'
     export_geojson 'public_parking'
     export_geojson 'public_swimming_pool'
@@ -62,4 +62,16 @@ function export_polygon_views() {
     export_geojson 'zoo'
 }
 
+function export_point_views() {
+    export_geojson 'viewpoint'
+    export_geojson 'border_stone'
+    export_geojson 'spring'
+    export_geojson 'memorial'
+    export_geojson 'waterfall'
+    export_geojson 'cave'
+    export_geojson 'wayside_shrine'
+    export_geojson 'well'
+}
+
 export_polygon_views
+export_point_views
