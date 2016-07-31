@@ -1,8 +1,8 @@
 # swissnames
 
-Provide curated GeoJSON extracts from the free swissNAMES3D data set from swisstopo.
+**swissnames** provides curated GeoJSON extracts from the [free swissNAMES3D data set from swisstopo](http://www.mont-terri.ch/internet/swisstopo/en/home/products/landscape/swissNAMES3D.html).
 This is either meant for direct map overlays in web clients since the GeoJSON are accessible via HTTP or
-for specific data point imports.
+if you need a specific data set.
 
 ## Data
 
