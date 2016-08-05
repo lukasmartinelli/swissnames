@@ -5,8 +5,9 @@ This is either meant for direct map overlays in web map clients or for adding ge
 
 ## Data
 
-The data can be found in the `./data` directory. You can explore the GeoJSON files directly on GitHub.
+Please make sure to understand the [licensing terms](#license) before using the data in your project.
 
+The data can be found in the `./data` directory. You can explore the GeoJSON files directly on GitHub.
 Since the data is hosted on GitHub pages you can directly reference a GeoJSON file
 in a web mapping client (e.g. `http://swissnames.lukasmartinelli.ch/data/airport_area.geojson`).
 
@@ -74,6 +75,11 @@ in a web mapping client (e.g. `http://swissnames.lukasmartinelli.ch/data/airport
 - [ferry.geojson](/data/ferry.geojson): Person (with and without rope) and car ferries (Linestring)
 - [railway_structure.geojson](/data/railway_structure.geojson): Railway structures (bridges, tunnels) (Linestring)
 
+## License
+
+The geo data from swisstopo is licensed under the [Licence for the free geodata of the Federal Office of Topography swisstopo](LICENSE-GEODATA) and **by using the data extracts you are legally bound to the terms of this license** as of section `6d`.
+All other code is [MIT licensed](LICENSE). This repo refines the original swisstopo data and redistributes that refined data (allowed usage according to section `4j`).
+
 ## Data Quality and Coverage
 
 The data from swisstopo is very accurate. However for many special cases it is lacking coverag and you will get more features if you extract them directly from [OpenStreetMap](https://openstreetmap.org).
@@ -113,7 +119,3 @@ Export the GeoJSON files. The exported GeoJSON files are stored in `./data`.
 ```bash
 docker-compose run export-geojson
 ```
-
-## License
-
-The code is [MIT licensed](LICENSE) while the geo data from swisstopo is licensed under the [Licence for the free geodata of the Federal Office of Topography swisstopo](LICENSE-GEODATA).
