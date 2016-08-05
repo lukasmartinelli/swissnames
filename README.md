@@ -74,6 +74,12 @@ in a web mapping client (e.g. `http://swissnames.lukasmartinelli.ch/data/airport
 - [ferry.geojson](/data/ferry.geojson): Person (with and without rope) and car ferries (Linestring)
 - [railway_structure.geojson](/data/railway_structure.geojson): Railway structures (bridges, tunnels) (Linestring)
 
+## Data Quality and Coverage
+
+The data from swisstopo is very accurate. However for many special cases it is lacking coverag and you will get more features if you extract them directly from [OpenStreetMap](https://openstreetmap.org).
+
+The data is especially made for labelling (although ranking is difficult without more information). Some gold nuggets include the very detailed place names in [settlement.geojson](/data/settlement.geojson) which includes population classes.
+
 ## Run Workflow
 
 The entire project is structured components using Docker containers
