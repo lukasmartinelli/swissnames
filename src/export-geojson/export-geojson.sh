@@ -62,6 +62,18 @@ function export_polygon_views() {
     export_geojson 'zoo'
 }
 
+function export_line_views() {
+    export_geojson 'ski_jumping_hill'
+    export_geojson 'sled_run'
+    export_geojson 'aerial_lift'
+    export_geojson 'river'
+    export_geojson 'road'
+    export_geojson 'foot_path'
+    export_geojson 'climbing_route'
+    export_geojson 'ferry'
+    export_geojson 'railway'
+}
+
 function export_point_views() {
     export_geojson 'viewpoint'
     export_geojson 'border_stone'

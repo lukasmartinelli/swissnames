@@ -15,6 +15,7 @@ function exec_psql_file() {
 }
 
 function main() {
+    # polygons
     exec_psql_file "dam_structure.sql"
     exec_psql_file "landuse.sql"
     exec_psql_file "place.sql"
@@ -24,8 +25,17 @@ function main() {
     exec_psql_file "terrain.sql"
     exec_psql_file "water.sql"
 
+    # points
     exec_psql_file "single_object.sql"
     exec_psql_file "named_point.sql"
+
+    # lines
+    exec_psql_file "sport_structure.sql"
+    exec_psql_file "aerial_lift.sql"
+    exec_psql_file "river.sql"
+    exec_psql_file "road_structure.sql"
+    exec_psql_file "navy.sql"
+    exec_psql_file "railway.sql"
 }
 
 main
