@@ -64,6 +64,15 @@ in a web mapping client (e.g. `http://swissnames.lukasmartinelli.ch/data/airport
 - [hill.geojson](/data/hill.geojson): Named hill (Point)
 - [mountain_pass.geojson](/data/mountain_pass.geojson): Mountain pass (Point)
 - [road_pass.geojson](/data/road_pass.geojson): Mountain road pass (Point)
+- [ski_jumping_hill.geojson](/data/ski_jumping_hill.geojson): [Ski jumping hill](https://en.wikipedia.org/wiki/Ski_jumping_hill) (Linestring)
+- [sled_run.geojson](/data/sled_run.geojson): [Sled and bob runs](https://en.wikipedia.org/wiki/Toboggan) (Linestring)
+- [aerial_lift.geojson](/data/aerial_lift.geojson): Aerial lifts like ski/gondola/chair lifts and aerial cableway (Linestring)
+- [river.geojson](/data/river.geojson): Waterways/rivers (Linestring)
+- [road.geojson](/data/road.geojson): Road structures (bridges, tunnels, underpass) (Linestring)
+- [foot_path.geojson](/data/foot_path.geojson): Foot paths (Linestring)
+- [climbing_route.geojson](/data/climbing_route.geojson): Climbing routes/[Via ferrata](https://en.wikipedia.org/wiki/Via_ferrata) (Linestring)
+- [ferry.geojson](/data/ferry.geojson): Person (with and without rope) and car ferries (Linestring)
+- [railway.geojson](/data/railway.geojson): Railway structures (bridges, tunnels) (Linestring)
 
 ## Run Workflow
 

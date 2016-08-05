@@ -95,3 +95,4 @@ function export_point_views() {
 
 export_point_views
 export_polygon_views
+export_line_views
