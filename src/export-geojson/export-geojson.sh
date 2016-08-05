@@ -67,11 +67,11 @@ function export_line_views() {
     export_geojson 'sled_run'
     export_geojson 'aerial_lift'
     export_geojson 'river'
-    export_geojson 'road'
+    export_geojson 'road_structure'
     export_geojson 'foot_path'
     export_geojson 'climbing_route'
     export_geojson 'ferry'
-    export_geojson 'railway'
+    export_geojson 'railway_structure'
 }
 
 function export_point_views() {

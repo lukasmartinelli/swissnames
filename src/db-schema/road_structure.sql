@@ -1,4 +1,4 @@
-CREATE OR REPLACE VIEW road AS (
+CREATE OR REPLACE VIEW road_structure AS (
     SELECT geom,
            name,
            CASE WHEN kunstbaute='Tunnel' THEN 'tunnel'

@@ -1,4 +1,4 @@
-CREATE OR REPLACE VIEW railway AS (
+CREATE OR REPLACE VIEW railway_structure AS (
     SELECT geom,
            name,
            CASE WHEN objektart='Kleinbahn' THEN 'mini_gauge'
