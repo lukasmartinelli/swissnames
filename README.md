@@ -1,6 +1,6 @@
 # Geographic Names of Switzerland [![BSD-3 and PDDL licensed](https://img.shields.io/badge/license-MIT/Free Geodata License swisstopo -blue.svg)](https://github.com/lukasmartinelli/swissnames#license) [![Build Status](https://travis-ci.org/lukasmartinelli/swissnames.svg?branch=gh-pages)](https://travis-ci.org/lukasmartinelli/swissnames) 
 
-**swissnames** provides curated GeoJSON extracts from the [free swissNAMES3D data set from swisstopo](http://www.mont-terri.ch/internet/swisstopo/en/home/products/landscape/swissNAMES3D.html).
+**swissnames** provides curated GeoJSON extracts from the [free swissNAMES3D data set from swisstopo](https://shop.swisstopo.admin.ch/products/landscape/names3D).
 This is either meant for direct map overlays in web map clients or for adding geographic names to your data set.
 
 ## Data
