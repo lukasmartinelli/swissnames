@@ -8,8 +8,6 @@ This is either meant for direct map overlays in web map clients or for adding ge
 Please make sure to understand the [licensing terms](#license) before using the data in your project.
 
 The data can be found in the `./data` directory. You can explore the GeoJSON files directly on GitHub.
-Since the data is hosted on GitHub pages you can directly reference a GeoJSON file
-in a web mapping client (e.g. `http://swissnames.lukasmartinelli.ch/data/airport_area.geojson`).
 
 **List and explanation of data extracts**
 
